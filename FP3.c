@@ -57,7 +57,7 @@ void print()
 
 int main()
 {
-   printf("\nCoded by Deepak(04335304421)\n")
+   printf("\nCoded by Deepak(04335304421)\n");
     int i,arr[20]={10,20,30,40,10,23,44,43,67,43,6,76,20,54,49,67,87,12,45,34};
      //init array of list to NULL
     init();

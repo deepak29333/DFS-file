@@ -52,7 +52,7 @@ void Dijkstra(int Graph[MAX][MAX], int n, int start) {
     }
 }
 int main() {
-	printf("\nCoded by Deepak(04335304421)\n")
+	printf("\nCoded by Deepak(04335304421)\n");
   int i, j, n, u;
   n = 6;
 	int Graph[MAX][MAX]={

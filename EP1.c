@@ -5,24 +5,27 @@ int queue[9],front=-1,rear=-1,visited[9], stack[10], stackSize=9, top = 1;
 
 
 void push(int v){
-if( top == stackSize ) printf("\nStack Overflow!");
+if( top == stackSize ) 
+	printf("\nStack Overflow!");
 else {
-stack[top] = v; top++;
+	stack[top] = v; top++;
 }
 }
 int peek() {
-return stack[top-1];
+	return stack[top-1];
 }
 
 void resetVisited() {
 int i;
-for(i=1; i<= vCount; i++) { visited[i] = 0;
-}
+for(i=1; i<= vCount; i++) { 
+	visited[i] = 0;
+ }
 }
 
 int stackisEmpty(){ if( top == 1)
-return 1; else
-return 0;
+	return 1;
+ else
+ 	return 0;
 }
 
 int pop(){

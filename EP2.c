@@ -46,7 +46,7 @@ int dequeue(struct queue *q){
 }
  
 int main(){
-    // Initializing Queue (Array Implementation)
+	printf("Coded by Deepak(04335304421)\n");
     struct queue q;
     q.size = 400;
     q.f = q.r = 0;

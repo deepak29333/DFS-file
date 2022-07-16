@@ -13,8 +13,8 @@ void postorder(struct tree *);
 void preorder(struct tree *);
 struct tree *delet(struct tree *,int);
 struct tree *search(struct tree *);
-int main(void) {
-	printf("Coded by Deepak(04335304421)"\n);
+int main() {
+	printf("Coded by Deepak(04335304421)\n");
 	struct tree *root;
 	int choice, item,item_no;
 	root = NULL;
@@ -64,7 +64,7 @@ int main(void) {
 		}
 	}
 	while(choice !=7);
-	return(0);
+	return 0;
 }
 struct tree *insert(struct tree *root, int x) {
 	if(!root) {

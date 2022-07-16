@@ -15,6 +15,7 @@ struct tree *delet(struct tree *,int);
 struct tree *search(struct tree *);
 int leafNode(struct tree *);
 int main(void) {
+	printf("Coded by Deepak(04335304421)\n");
 	struct tree *root;
 	int choice, item,item_no;
 	root = NULL;
@@ -119,7 +120,7 @@ int leafNode(struct tree *root)
 	if(root->left == NULL && root->right == NULL)
 		{
 		return 1;
-		}
+		} 
 	return leafNode(root->left) + leafNode(root->right);			
 }
 /* FUNCTION TO DELETE A NODE FROM A BINARY TREE */

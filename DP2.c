@@ -78,9 +78,9 @@ int delet(){
     {
         printf("1. Insert Into Heap \n");
         printf("2. Delete From Heap\n");
-        printf("3. Display");
+        printf("3. Display\n");
         printf("4. Exit\n\n\n");
-        printf("Enter your choice :  ");
+        printf("Enter your choice :  \n");
         scanf("%d",&choice);
         
         switch(choice)
@@ -93,14 +93,16 @@ int delet(){
                 break;
         
             case 2:
-            	// 	heapifySort(count-1);
                 delet();  
-                printf("Heap after delete element");
+                printf("Heap after delete element\n");
 				display();  
-				break;  
-            case 4:
-                printf("\n\n\t\t\Deepak !\n\n\n");
-                exit(0);  
+				break; 
+			case 3:
+				display();
+				break;	 
+            default:
+                printf("\n\n\t\t\Deepak !\n\n\n"); 
+				exit(0); 
         }
     }
  }
